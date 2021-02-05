@@ -14,4 +14,8 @@ public class GreenField extends BasicField {
         isEnding = ending;
         return this;
     }
+
+    public boolean isEnding() {
+        return isEnding;
+    }
 }
