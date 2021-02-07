@@ -15,6 +15,10 @@ public abstract class BasicField {
         this.color = color;
     }
 
+    /**
+     * render the game
+     * @param g
+     */
     public void render(Graphics g) {
         g.setColor(color);
         g.fillRect(x, y, Constants.BASIC_FIELD_SIZE, Constants.BASIC_FIELD_SIZE);
